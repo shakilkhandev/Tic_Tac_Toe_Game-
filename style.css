@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    width: 100%;
+    height: 100vh;
+    background : url("./developedByShakil.gif"); 
+    background-position:left;
+    background-size:650px;
+    backdrop-filter: blur(2px);
+   
+}
+
+.interface {
+    font-family:cursive;
+    font-size:20px;
+    font-weight: bolder;
+    color :rgb(255, 255, 255);
+    height: 500px;
+    width : 450px;
+    background: rgba(22, 53, 174, 0.906);
+    backdrop-filter: blur(38px);
+    /* -webkit-backdrop-filter: blur(18px); */
+    border-radius: 15px;
+    border: 1px solid rgba(14, 90, 161, 0.489);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: auto;
+}
+
+strong{
+    color:  rgb(159, 224, 17);
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+
+
+.interface > h1{
+    text-align : center;
+    color: white;
+    font-family:fantasy;
+    font-weight: 500;
+    
+}
+
+
+.container{
+    display: flex ;
+    right: 10%;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    height:500px;
+    width:650px;
+    background-color: rgb(251, 251, 251) ;
+    backdrop-filter: blur(1px);
+    border: 16px solid rgb(252, 252, 252);
+    flex-wrap: wrap;
+    border-radius: 8px;
+    gap: 8px ;
+}
+
+.container > p {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    color: white;
+    background-color: dodgerblue;
+}
+
+
+
+.item{
+    font-size: 20px;
+    width:200px; 
+    height:145px; 
+    background-color:rgb(64, 5, 143);
+    color: white;
+    text-align: center;
+    align-content: center;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+
+
+.item:hover{
+    border : 4px solid rgb(151, 218, 17) ;
+    border-radius: 8px ;
+}
+
+@media screen and (min-width: 320px) AND (max-width: 768px)
+
+{
+
+    body {
+        display: block;
+        background: darkblue;
+        font-size: smaller;
+    }
+   .interface {
+    width: 100%;
+    height: 30%;
+    font-size: smaller;
+   }
+   .container{
+       
+    width:100%;
+    height: 80%;
+
+   }
+   
+   .item{
+
+    width:31%;
+    height:26%;
+   }
+
+
+
+}
