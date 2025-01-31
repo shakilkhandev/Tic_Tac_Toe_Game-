@@ -14,8 +14,7 @@ body {
     width: 100%;
     height: 100vh;
     background : url("./developedByShakil.gif"); 
-    background-position:left;
-    background-size:650px;
+    background-size:780px;
     backdrop-filter: blur(2px);
    
 }
@@ -58,9 +57,9 @@ strong{
 .container{
     display: flex ;
     right: 10%;
-    flex-direction: row;
+    flex-direction: row ;
     justify-content: center;
-    align-items:center;
+    align-items:end;
     height:500px;
     width:650px;
     background-color: rgb(251, 251, 251) ;
@@ -73,16 +72,17 @@ strong{
 
 .container > p {
     width: 100%;
-    height: 20px;
+    height: 22px;
     text-align: center;
     color: white;
     background-color: dodgerblue;
+    font-weight: 900;
 }
 
 
 
 .item{
-    font-size: 20px;
+    font-size: 40px;
     width:200px; 
     height:145px; 
     background-color:rgb(64, 5, 143);
@@ -91,15 +91,33 @@ strong{
     align-content: center;
     border-radius:8px;
     box-sizing:border-box;
+   
 }
 
 
 .item:hover{
     border : 4px solid rgb(151, 218, 17) ;
     border-radius: 8px ;
+    cursor: pointer;
 }
 
-@media screen and (min-width: 320px) AND (max-width: 768px)
+.resetBtn{
+    height: 35px;
+    width: 90px;
+    background: red;
+    color : white ;
+    font-weight: 600;
+    border-radius: 5px;
+   }
+.resetBtn:hover {
+    background-color: rgb(64, 11, 98);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px #ffffff5d;
+}
+
+@media screen and (min-width: 320px) AND (max-width: 1100px)
 
 {
 
@@ -126,6 +144,5 @@ strong{
     height:26%;
    }
 
-
-
+  
 }
