@@ -1,6 +1,6 @@
 # Tic_Tac_Toe_Game 
 build using html css and js only 
 
-##live link 
+##live link   https://tttgamebyshakil.netlify.app/
 
-https://tttgamebyshakil.netlify.app/
+
